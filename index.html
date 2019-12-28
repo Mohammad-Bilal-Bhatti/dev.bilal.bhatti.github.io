@@ -8,6 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+		<!-- Custom Style -->
+		<style type="text/css">
+			.shape::after{
+				content: "|";
+			}
+
+		</style>
+		
     <title>Bilal Bhatti</title>
   </head>
   <body>
@@ -52,7 +60,9 @@
 				<strong class="text-info">Bilal Bhatti</strong> <span class="text-secondary">!!!</span>
 				</div>
 				<div class="mt-5">
-					<h3><span class="text-success">Junior Software Designer</span> | <span class="text-danger">Software Developer</span> | <span class="text-primary">Software Engineer</span></h3>	
+					<div>
+						<h3 class="shape display-4">I' m <strong>Junior Software</strong><span class="font-weight-bold text-danger" id="animate"></span></h3>
+					</div>
 				</div>
 				
 				<div class="mt-5">I <span class="fas fa-heart text-danger"></span> To wirte <strong class="text-secondary">CODE</strong> <span class="fas fa-code text-dark"></span> that adds values to others lives...
@@ -208,5 +218,49 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- Awesome Fonts. CDN -->
     <script src="https://kit.fontawesome.com/34efbf48fa.js" crossorigin="anonymous"></script>  		
-  </body>
+
+		<!-- Custom Script -->
+		<script type="text/javascript">
+			// helps in sleep...
+			function sleep(ms) {
+				return new Promise(resolve => setTimeout(resolve, ms));
+			}
+			// This function Animate the Text.
+			async function animateText(){
+				let append = ' ';
+				const skills = ['Designer.','Developer.','Engineer.'];
+
+				const timeWrite = 200;
+				const timeDelete = 120;
+
+				const element = document.getElementById('animate');
+
+				for(let index in skills){
+					const skill = skills[index];
+					const start = 0;
+					const stop = skill.length - 1;
+					// Forward...
+					for(let x = start; x <= stop; x++){
+						element.innerHTML = append + skill.substr(start, x + 1);
+						await sleep(timeWrite);
+					}
+					// Reverse...
+					for(let x = stop ; x>=0 ; x--){
+						element.innerHTML = append + skill.substr(start, x );
+						await sleep(timeDelete);
+					}
+
+
+				} 
+
+				// Recursion Effect... 
+				animateText();
+			}
+			
+			// Call animateText function after 1 seconds. 
+			setTimeout(animateText,1000);
+			
+		</script>
+	
+	</body>
 </html>
