@@ -8,15 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-		<!-- Custom Style -->
-		<style type="text/css">
-			.shape::after{
-				content: "|";
-			}
-
-		</style>
+	<!-- Custom Style -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 		
-    <title>Bilal Bhatti</title>
+    <title>Bilal Bhatti Portfolio</title>
   </head>
   <body>
 
@@ -219,48 +214,8 @@
     <!-- Awesome Fonts. CDN -->
     <script src="https://kit.fontawesome.com/34efbf48fa.js" crossorigin="anonymous"></script>  		
 
-		<!-- Custom Script -->
-		<script type="text/javascript">
-			// helps in sleep...
-			function sleep(ms) {
-				return new Promise(resolve => setTimeout(resolve, ms));
-			}
-			// This function Animate the Text.
-			async function animateText(){
-				let append = ' ';
-				const skills = ['Designer.','Developer.','Engineer.'];
+	<!-- Custom Script -->
+	<script type="text/javascript" src="script/script.js"></script>
 
-				const timeWrite = 200;
-				const timeDelete = 120;
-
-				const element = document.getElementById('animate');
-
-				for(let index in skills){
-					const skill = skills[index];
-					const start = 0;
-					const stop = skill.length - 1;
-					// Forward...
-					for(let x = start; x <= stop; x++){
-						element.innerHTML = append + skill.substr(start, x + 1);
-						await sleep(timeWrite);
-					}
-					// Reverse...
-					for(let x = stop ; x>=0 ; x--){
-						element.innerHTML = append + skill.substr(start, x );
-						await sleep(timeDelete);
-					}
-
-
-				} 
-
-				// Recursion Effect... 
-				animateText();
-			}
-			
-			// Call animateText function after 1 seconds. 
-			setTimeout(animateText,1000);
-			
-		</script>
-	
 	</body>
 </html>
