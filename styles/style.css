@@ -26,40 +26,87 @@
 .dark-contrast{
 	background-color: #ca3e47;
 }
+
 .dark-blue{
 	background-color: #20a8d8;
 }
+
+.text-dark-blue{
+	color: #20a8d8;
+}
+
 .light-blue{
 	background-color: #63c2de;
 }
+
+.text-light-blue{
+	color: #63c2de;
+}
+
 .indego{
 	background-color: #6610f2;
 }
+
+.text-indego{
+	color: #6610f2;
+}
+
 .purple{
 	background-color: #6f42c1;
 }
+
+.text-purple{
+	color: #6f42c1;
+}
+
 .pink{
 	background-color: #e83e8c;
 }
+
+.text-pink{
+	color: #e83e8c;
+}
+
 .red{
 	background-color: #f86c6b;
 }
-.orange{
-	background-color: #f8cb00;
+
+.text-red{
+	color: #f86c6b;
 }
+
+.orange{
+	background-color: #f56009;
+}
+
+.text-orange{
+	color: #f56009;
+}
+
 .yellow{
 	background-color: #ffc107;
 }
+
+.text-yellow{
+	color: #ffc107;
+}
+
 .green{
 	background-color: #4dbd74;
+}
+
+.text-green{
+	color: #4dbd74;
 }
 
 .m-primary{
 	background-color: #20a8d8;
 }
+
 .m-secondary{
 	background-color: #c8ced3;
 }
+
 .m-success{
 	background-color: #4dbd74;
 }
@@ -110,6 +157,9 @@
 	}
 }
 
+.skills{
+	font-size: 4rem;
+}
 
 
 

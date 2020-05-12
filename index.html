@@ -9,10 +9,8 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
@@ -43,10 +41,13 @@
               <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#recommendations">Recommendations</a>
@@ -93,23 +94,18 @@
     </div>
     <!-- End of Jumbotron -->
 
-    <!-- Alert -->
-    <div class="alert alert-info m-0">
-      <div class="text-center">
-        This <strong class="text-info">portfolio</strong> page is under
-        <strong class="text-primary">Construction</strong>
-        <span class="fas fa-hammer"></span>.
-      </div>
-    </div>
-    <!-- Alert -->
-
-
+    <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+      The page is in <strong>under construction</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>    
 
     <section id="about" class="board m-light  d-flex">
       <div class="row align-items-center">
          <div class="col-md-6">
             <div class="text-center">
-              <img width="80%" src="./svgs/undraw_version_control_9bpv.svg" alt="image">
+              <img width="80%" src="./img/svgs/undraw_version_control_9bpv.svg" alt="image">
             </div>
          </div> 
          <div class="col-md-6">
@@ -242,15 +238,32 @@
       <div class="row align-items-center">
         <div class="col-md-6">
            <div class="text-center">
-             <img width="80%" src="./svgs/undraw_feeling_proud_qne1.svg" alt="skills-img">
+             <img width="80%" src="./img/svgs/undraw_feeling_proud_qne1.svg" alt="skills-img">
            </div>
         </div> 
         <div class="col-md-6">
-           <h5 class="display-4">Skills</h5>
+           <h2 class="display-4">Skills Stack</h2>
            <div class="row">
-             <h1><i class="fab fa-js"></i> <i class="fab fa-npm"></i> <i class="fab fa-node"></i> <i class="fab fa-react"></i> <i class="fab fa-git-alt"></i> <i class="fab fa-github"></i> <i class="fab fa-bootstrap"> </i> <i class="fab fa-font-awesome"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> </i> <i class="fab fa-android"></i> <i class="fab fa-code"></i> <i class="fab fa-database"></i> <i class="fab fa-fire"></i> <i class="fab fa-fire"></i> <i class="fab fa-python"></i> <i class="fab fa-docker"></i> <i class="fab fa-chart-bar"></i> <i class="fab fa-network-wired"></i> <i class="fab fa-tasks"></i> <i class="fab fa-linux"></i> <i class="fab fa-linux"></i></h1>
+             <div class="skills">
+                <i class="fab fa-html5 text-orange"></i> 
+                <i class="fab fa-css3-alt text-info"></i> 
+                <i class="fab fa-js text-warning"></i>
+                <i class="fab fa-npm text-danger"></i> 
+                <i class="fab fa-node text-success"></i>
+                <i class="fab fa-react text-info"></i>
+                <i class="fab fa-git-alt text-orange"></i> 
+                <i class="fab fa-github text-secondary"></i> 
+                <i class="fab fa-bootstrap text-indego"> </i> 
+                <i class="fab fa-font-awesome text-primary"></i> 
+                <i class="fab fa-android text-success"></i> 
+                <i class="fa fa-database text-secondary"></i> 
+                <i class="fa fa-fire text-orange"></i> 
+                <i class="fab fa-python text-red"></i> 
+                <i class="fab fa-docker text-primary"></i> 
+                <i class="fa fa-chart-bar text-danger"></i> 
+                <i class="fa fa-fish text-info"></i> 
+            </div>
            </div>
-           <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam vel magni voluptatem optio dolore nulla similique cumque quisquam nobis rem quod esse voluptates aperiam, sit unde modi facilis. Quo, asperiores.</p>
         </div> 
      </div>
 
@@ -269,35 +282,35 @@
       <div class="row py-4 justify-content-center">
 
         <div class="project-case d-flex flex-column align-items-center">
-          <img class="img-thumbnail mb-3 w-75" src="./svgs/undraw_heatmap_uyye.svg" />
+          <img class="img-thumbnail mb-3 w-75" src="./img/svgs/undraw_heatmap_uyye.svg" />
           <h6>Web Designing</h6>
           <small class="text-muted text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus.</small>
         </div>
 
         <div class="project-case d-flex flex-column align-items-center">
-          <img class="img-thumbnail mb-3 w-75" src="./svgs/undraw_developer_activity_bv83.svg" />
+          <img class="img-thumbnail mb-3 w-75" src="./img/svgs/undraw_developer_activity_bv83.svg" />
           <h6>Web Development</h6>
           <small class="text-muted text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus.</small>
         </div>
 
         <div class="project-case d-flex flex-column align-items-center">
-          <img class="img-thumbnail mb-3 w-75" src="./svgs/undraw_source_code_xx2e.svg" />
+          <img class="img-thumbnail mb-3 w-75" src="./img/svgs/undraw_source_code_xx2e.svg" />
           <h6>Bugs Fixing</h6>
           <small class="text-muted text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus.</small>
         </div>
       </div>
     </section>
 
-    <section id="random" class="board d-flex">
+    <section id="aim" class="board d-flex">
       <div class="row align-items-center pl-3">
         <div class="col-md-6">
            <h5 class="display-4">Aim</h5>
-           <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, harum. Similique consequuntur beatae labore atque, libero repudiandae architecto ad adipisci quia ex vero accusantium rerum, ut sit aliquid? Vel, repellat!</p>
+           <p class="text-muted">Future Enterpenure | CEO | Technologist | Designer | Developer | Engineer | Prophet PBUH Follower</p>
 
         </div> 
         <div class="col-md-6">
           <div class="text-center">
-            <img width="80%" src="./svgs/undraw_code_thinking_1jeh.svg" alt="contact-img">
+            <img width="80%" src="./img/svgs/undraw_code_thinking_1jeh.svg" alt="contact-img">
           </div>
        </div> 
     </div>
@@ -338,12 +351,23 @@
       <div class="row align-items-center">
         <div class="col-md-6">
            <div class="text-center">
-             <img width="80%" src="./svgs/undraw_address_udes.svg" alt="contact-img">
+             <img width="80%" src="./img/svgs/undraw_address_udes.svg" alt="contact-img">
            </div>
         </div> 
         <div class="col-md-6">
-           <h5 class="display-4">Contact</h5>
-           <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, harum. Similique consequuntur beatae labore atque, libero repudiandae architecto ad adipisci quia ex vero accusantium rerum, ut sit aliquid? Vel, repellat!</p>
+           <h5 class="display-4 mb-4">Contact...</h5>
+           <form>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea placeholder="Your Message..." class="form-control" id="message"></textarea>
+              </div>
+              <div class="input-group">
+                <input type="text" class="form-control" id="email" placeholder="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-primary px-3">Send</button>
+                </div>
+              </div>              
+            </form>
 
         </div> 
      </div>
@@ -496,6 +520,6 @@
     ></script>
 
     <!-- Custom Script -->
-<!--    <script type="text/javascript" src="script/script.js"></script>-->
+   <script type="text/javascript" src="script/script.js"></script>
   </body>
 </html>
