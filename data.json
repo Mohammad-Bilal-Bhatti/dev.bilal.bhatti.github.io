@@ -1,0 +1,207 @@
+{
+  "address": "Karachi city of lights",
+
+  "aboutText": "Hello, my name is Bilal Bhatti. I am a junior software developer. I Like to solve problems. Since from my childhood I love to play with computers. After enrolling in Engineering studies my interest in the field computer science gets increased. During the studies I worked upon many small and medium size projects. Where I started working in teams. Today, I am a full stack Javascript developer, that love to build new and elegent sites that empowers the business to run smoothly... ",
+
+  "links": {
+    "github": "https://github.com/Mohammad-Bilal-Bhatti",
+    "facebook": "https://www.facebook.com/i.am.bilal.bhatti",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/bilal-bhatti-335390134/",
+    "gmail": "dev.bilal.bhatti@gmail.com "
+  },
+
+  "education": [
+    {
+      "degreeName": "B.E Software Engineering",
+      "institution": "Mehran University of Engineering and Technology, Jamshoro ",
+      "marks": "3.85GPA",
+      "timePeriod": "2016-2020"
+    },
+    {
+      "degreeName": "Pre Engineering",
+      "institution": "Islamia Science College",
+      "marks": "80.38%",
+      "timePeriod": "2015-2016"
+    },
+    {
+      "degreeName": "Matric",
+      "institution": "Saint Saviour High School",
+      "marks": "78.73%",
+      "timePeriod": "2013-2014"
+    }
+  ],
+  "skills": [
+    {
+      "name": "html5",
+      "icon": "fab fa-html5",
+      "color": "text-orange"
+    },
+    {
+      "name": "Css",
+      "icon": "fab fa-css3-alt",
+      "color": "text-info"
+    },
+    {
+      "name": "Js",
+      "icon": "fab fa-js text-warning",
+      "color": "text-warning"
+    },
+    {
+      "name": "NPM",
+      "icon": "fab fa-npm text-danger",
+      "color": "text-danger"
+    },
+    {
+      "name": "Node",
+      "icon": "fab fa-node",
+      "color": "text-success"
+    },
+    {
+      "name": "Git",
+      "icon": "fab fa-git-alt",
+      "color": "text-orange"
+    },
+    {
+      "name": "Github",
+      "icon": "fab fa-github ",
+      "color": "text-secondary"
+    },
+    {
+      "name": "Bootstraps",
+      "icon": "fab fa-bootstrap ",
+      "color": "text-indego"
+    },
+    {
+      "name": "Font Awesome",
+      "icon": "fab fa-font-awesome ",
+      "color": "text-primary"
+    },
+    {
+      "name": "Android",
+      "icon": "fab fa-android ",
+      "color": "text-success"
+    },
+    {
+      "name": "Mongo DB",
+      "icon": "fa fa-database ",
+      "color": "text-secondary"
+    },
+    {
+      "name": "Firebase",
+      "icon": "fa fa-fire ",
+      "color": "text-orange"
+    },
+    {
+      "name": "Python",
+      "icon": "fab fa-python",
+      "color": "text-red"
+    },
+    {
+      "name": "Docker",
+      "icon": "fab fa-docker",
+      "color": "text-primary"
+    },
+    {
+      "name": "D3",
+      "icon": "fa fa-chart-bar ",
+      "color": "text-danger"
+    },
+    {
+      "name": "Fish",
+      "icon": "fa fa-fish ",
+      "color": "text-info"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Javascript",
+      "langBg": "text-warning",
+      "branches": "3",
+      "stars": "4"
+    },
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Html",
+      "langBg": "text-orange",
+      "branches": "3",
+      "stars": "4"
+    },
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Java",
+      "langBg": "text-brown",
+      "branches": "3",
+      "stars": "4"
+    },
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Javascript",
+      "langBg": "text-warning",
+      "branches": "3",
+      "stars": "4"
+    },
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Python",
+      "langBg": "text-info",
+      "branches": "3",
+      "stars": "4"
+    },
+    {
+      "title": "Project Title",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis dolore quo atque recusandae neque similique, delectus reprehenderit eligendi perferendis culpa vitae quia, saepe excepturi assumenda, ea optio adipisci dolores?",
+      "updatedDate": "24, Jan 2020",
+      "language": "Css",
+      "langBg": "text-indego",
+      "branches": "3",
+      "stars": "4"
+    }
+  ],
+  "recommendations": [
+    {
+      "imageURL": "./img/users/3.jpg",
+      "personName": "Jhon doe",
+      "comment": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    },
+    {
+      "imageURL": "./img/users/4.jpg",
+      "personName": "Jhon doe",
+      "comment": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    },
+    {
+      "imageURL": "./img/users/5.jpg",
+      "personName": "Jhon doe",
+      "comment": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    }
+  ],
+  "services": [
+    {
+      "imageURL": "./img/svgs/undraw_heatmap_uyye.svg",
+      "title": "Web Designing",
+      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    },
+    {
+      "imageURL": "./img/svgs/undraw_developer_activity_bv83.svg",
+      "title": "Web Development",
+      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    },
+    {
+      "imageURL": "./img/svgs/undraw_source_code_xx2e.svg",
+      "title": "Bugs Fixing",
+      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta? Corporis, commodi, enim tenetur neque iusto reprehenderit amet voluptatibus cum quos deserunt praesentium facere vel totam quaerat voluptatem, non accusamus."
+    }
+  ]
+}
