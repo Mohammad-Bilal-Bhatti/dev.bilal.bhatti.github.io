@@ -16,11 +16,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- Scroll Animation CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
 
     <title>Bilal Bhatti Portfolio</title>
   </head>
+
   <body>
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -68,12 +72,14 @@
 
     <div class="jumbotron clearfix mb-0">
       <img
+        data-aos="fade-left"
+        data-aos-duration="1000"
         style="height: 200px;"
         src="img/me-0.jpg"
         alt="Person wearing brown t-shirt named as Bilal Bhatti"
         class="rounded-circle float-right shadow-lg"
       />
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
         <div class="display-1">
           <strong>Hey I'm</strong><br />
           <strong class="text-info">Bilal Bhatti</strong>
@@ -113,7 +119,12 @@
       </button>
     </div>
 
-    <section id="about" class="board m-light d-flex">
+    <section
+      data-aos="fade-right"
+      data-aos-duration="2000"
+      id="about"
+      class="board m-light d-flex"
+    >
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="text-center">
@@ -150,7 +161,7 @@
     >
       <h3 class="title-font display-4 mb-4">Education</h3>
 
-      <div class="m-dark e-pill">
+      <div class="m-dark e-pill" data-aos="fade-right" data-aos-duration="1000">
         <div class="d-flex justify-content-between">
           <h4>B.E Software Engineering</h4>
           <small class="text-muted">2016-2020</small>
@@ -163,7 +174,7 @@
         </div>
       </div>
 
-      <div class="m-dark e-pill">
+      <div class="m-dark e-pill" data-aos="fade-left" data-aos-duration="1000">
         <div class="d-flex justify-content-between">
           <h4>Pre Engineering</h4>
           <small class="text-muted">2015-2016</small>
@@ -174,7 +185,7 @@
         </div>
       </div>
 
-      <div class="m-dark e-pill">
+      <div class="m-dark e-pill" data-aos="fade-right" data-aos-duration="1000">
         <div class="d-flex justify-content-between">
           <h4>Matric</h4>
           <small class="text-muted">2013-2014</small>
@@ -192,7 +203,11 @@
       </div>
 
       <div class="row py-4 justify-content-center">
-        <div class="p-card norm-dark shadow">
+        <div
+          class="p-card norm-dark shadow"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -218,7 +233,11 @@
           </div>
         </div>
 
-        <div class="p-card norm-dark shadow">
+        <div
+          class="p-card norm-dark shadow"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -243,7 +262,11 @@
           </div>
         </div>
 
-        <div class="p-card norm-dark shadow">
+        <div
+          class="p-card norm-dark shadow"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -268,7 +291,11 @@
           </div>
         </div>
 
-        <div class="p-card norm-dark">
+        <div
+          class="p-card norm-dark"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -294,7 +321,11 @@
           </div>
         </div>
 
-        <div class="p-card norm-dark">
+        <div
+          class="p-card norm-dark"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -320,7 +351,11 @@
           </div>
         </div>
 
-        <div class="p-card norm-dark">
+        <div
+          class="p-card norm-dark"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div class="d-flex flex-row justify-content-between">
             <h6>Project Title</h6>
             <small class="text-muted float-right">20, Jan 2020</small>
@@ -347,7 +382,12 @@
       </div>
     </section>
 
-    <section id="skills" class="board m-light d-flex">
+    <section
+      id="skills"
+      class="board m-light d-flex"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="text-center">
@@ -361,7 +401,7 @@
         <div class="col-md-6">
           <h2 class="display-4">Skills Stack</h2>
           <div class="row">
-            <div class="skills">
+            <div class="skills" data-aos="zoom-in" data-aos-duration="1000">
               <i class="fab fa-html5 text-orange"></i>
               <i class="fab fa-css3-alt text-info"></i>
               <i class="fab fa-js text-warning"></i>
@@ -395,7 +435,11 @@
       </div>
 
       <div class="row py-4 justify-content-center">
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail mb-3 w-75"
             src="./img/svgs/undraw_heatmap_uyye.svg"
@@ -409,7 +453,11 @@
           >
         </div>
 
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail mb-3 w-75"
             src="./img/svgs/undraw_developer_activity_bv83.svg"
@@ -423,7 +471,11 @@
           >
         </div>
 
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail mb-3 w-75"
             src="./img/svgs/undraw_source_code_xx2e.svg"
@@ -439,7 +491,12 @@
       </div>
     </section>
 
-    <section id="aim" class="board d-flex">
+    <section
+      id="aim"
+      class="board d-flex"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
       <div class="row align-items-center pl-3">
         <div class="col-md-6">
           <h5 class="display-4">Aim</h5>
@@ -465,7 +522,11 @@
         <h2 class="display-4">Recommendations</h2>
       </div>
       <div class="row py-4 justify-content-center">
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail rounded-circle w-25 mb-3"
             src="./img/users/3.jpg"
@@ -479,7 +540,11 @@
           >
         </div>
 
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail rounded-circle w-25 mb-3"
             src="./img/users/4.jpg"
@@ -493,7 +558,11 @@
           >
         </div>
 
-        <div class="project-case d-flex flex-column align-items-center">
+        <div
+          class="project-case d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img
             class="img-thumbnail rounded-circle w-25 mb-3"
             src="./img/users/5.jpg"
@@ -509,7 +578,12 @@
       </div>
     </section>
 
-    <section id="contact" class="board d-flex">
+    <section
+      id="contact"
+      class="board d-flex"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="text-center">
@@ -689,6 +763,15 @@
       src="https://kit.fontawesome.com/34efbf48fa.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Scroll Animation Script CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Script -->
+    <script type="text/javascript">
+      AOS.init({
+        duration: 700,
+      });
+    </script>
 
     <!-- Custom Script -->
     <script type="text/javascript" src="script/script.js"></script>
